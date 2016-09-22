@@ -40,7 +40,7 @@ class WebViewVC: UIViewController ,UITextFieldDelegate , UIWebViewDelegate , UIS
         networkAddress.keyboardType = UIKeyboardType.Default
         networkAddress.returnKeyType = .Go
         networkAddress.autocapitalizationType = .None    //取消默认的英文首字母大写
-        networkAddress.text = "file://demo.pdf"    //默认内容
+        networkAddress.text = "file://demo.pdf"    //默认内容，指向内置PDF
         networkAddress.delegate = self    //用委托事件textFieldShouldReturn来添加按钮上的Return事件
         
         goToAddress = UIButton(frame: CGRectMake(networkAddress.bounds.width + DEF_Controllers_Span * 2,
@@ -88,16 +88,19 @@ class WebViewVC: UIViewController ,UITextFieldDelegate , UIWebViewDelegate , UIS
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     func openTheSpecifiedFile(fileURL : String){
+        //获取全文件名，除去file://
         var startIndex = fileURL.startIndex.advancedBy(7)
         var endIndex = fileURL.endIndex.advancedBy(0)
         var range = Range<String.Index>(start: startIndex, end: endIndex)
         let fileFullName = fileURL.substringWithRange(range)
         
+        //获取文件名，不包括后缀
         startIndex = fileURL.startIndex.advancedBy(7)
         endIndex = fileURL.endIndex.advancedBy(-4)
         range = Range<String.Index>(start: startIndex, end: endIndex)
         let filePreName = fileURL.substringWithRange(range)
         
+        //获取文件后缀名
         startIndex = fileURL.startIndex.advancedBy(fileURL.characters.count - 3)
         endIndex = fileURL.endIndex.advancedBy(0)
         range = Range<String.Index>(start: startIndex, end: endIndex)
@@ -105,6 +108,7 @@ class WebViewVC: UIViewController ,UITextFieldDelegate , UIWebViewDelegate , UIS
         
         var filePath = "/" + filePreName
         let file : String? = NSBundle.mainBundle().pathForResource(filePath, ofType: fileSufName)
+        //非程序内置文件则去Documents/files下读取
         if (file == nil){
             
             filePath = NSHomeDirectory() + "/Documents" + "/files/" + fileFullName

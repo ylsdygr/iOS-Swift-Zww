@@ -48,6 +48,7 @@ class FunctionTabBar: UITabBarController {
         let itemArray = [UINCBA,ML,BI,UINCWV]
         self.viewControllers = itemArray
         self.tabBar.tintColor = UIColor.orangeColor()
+        //设置默认加载页
         self.selectedIndex = 0
     }
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  Demo-ZWW
+
+  Created by zww on 9/12/16.
+  Copyright © 2016 zww-organ. All rights reserved.
+*/
+
+//主页面
+"NSL_mainPage0" = "Basic Arithmetic";
+"NSL_mainPage1" = "Location";
+"NSL_mainPage2" = "Beautiful Images";
+
+//基础算法标签页
+"NSL_navigationItem1" = "Bubbling";
+"NSL_navigationItem2" = "Binary";
+"NSL_navigationItem3" = "Iterative";
+"NSL_navigationItem4" = "Radix";
+"NSL_navigationItem5" = "Matrix";
+
+"NSL_currentDataLabel" = "Data";
+"NSL_addDataButton" = "Add";
+"NSL_showResultButton" = "Sort";
+
+//地图定位标签页
+"NSL_UILongitude" = "Longitude";
+"NSL_UILatitude" = "Latitude";
+"NSL_UIAltitude" = "Altitude";
+"NSL_UIDirection" = "Direction";
+"NSL_UIDirectionNotice" = "Notice";
+"NSL_LocationStart" = "Start";
+"NSL_LocationStop" = "Stop";
+"NSL_UIShowPresetBTN" = "Show Preset";
+"NSL_UIShowResetBTN" = "Show Reset";
+
+"NSL_AlertError" = "Error";
+"NSL_AlertIKnow" = "I Know";
+"NSL_AlertMessagePICLC" = "Please Input Correct Location Coordinate";
+
+"NSL_AlertCoordinateNotice" = "Coordinate Notice";
+"NSL_AlertMessageCoordinate" = "A decimal with six bits after dot Between -180 and 180";
+
+"NSL_AlertLocaionLimited" = "Location Service Limited";
+"NSL_MapViewHasChanged" = "Map Has Changed";
+
+//美图欣赏
+"NSL_UI_BTN_Reload" = "Reload";
+"NSL_AlertMessage_NoData" = "";
+"NSL_AlertMessage_NoData" = "No Images in App,Please add some according to instruction.";

@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  Demo-ZWW
+
+  Created by zww on 9/12/16.
+  Copyright © 2016 zww-organ. All rights reserved.
+*/
+
+//主页面
+"NSL_mainPage0" = "基礎算法";
+"NSL_mainPage1" = "地圖位置";
+"NSL_mainPage2" = "美圖欣賞";
+
+//基础算法标签页
+"NSL_navigationItem1" = "冒泡排序";
+"NSL_navigationItem2" = "二分查找";
+"NSL_navigationItem3" = "迭代算桃子";
+"NSL_navigationItem4" = "進制轉換";
+"NSL_navigationItem5" = "榘陣轉置";
+
+"NSL_currentDataLabel" = "當前數據";
+"NSL_addDataButton" = "添加數據";
+"NSL_showResultButton" = "顯示結果";
+
+//地图定位标签页
+"NSL_UILongitude" = "經度";
+"NSL_UILatitude" = "緯度";
+"NSL_UIAltitude" = "海拔";
+"NSL_UIDirection" = "方向";
+"NSL_UIDirectionNotice" = "提示";
+"NSL_LocationStart" = "啓動";
+"NSL_LocationStop" = "停止";
+"NSL_UIShowPresetBTN" = "顯示預設位置";
+"NSL_UIShowResetBTN" = "顯示設定位置";
+
+"NSL_AlertError" = "錯誤";
+"NSL_AlertIKnow" = "知道了";
+"NSL_AlertMessagePICLC" = "請輸入正確的座標格式";
+
+"NSL_AlertCoordinateNotice" = "座標格式提示";
+"NSL_AlertMessageCoordinate" = "大小在-180至180之間的6位精度小數";
+
+"NSL_AlertLocaionLimited" = "位置訪問受限";
+"NSL_MapViewHasChanged" = "地圖範圍已變化";
+
+//美图欣赏
+"NSL_UI_BTN_Reload" = "重載";
+"NSL_AlertMessage_NoData" = "應用內無默認數據，請按說明添加數據";

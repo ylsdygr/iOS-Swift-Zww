@@ -1,0 +1,9 @@
+/* 
+  infoPlist.strings
+  Demo-ZWW
+
+  Created by zww on 9/12/16.
+  Copyright © 2016 zww-organ. All rights reserved.
+*/
+
+CFBundleDisplayName = "演示-张文武";

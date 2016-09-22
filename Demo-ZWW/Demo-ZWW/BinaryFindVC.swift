@@ -89,6 +89,7 @@ class BinaryFindVC: UIViewController , UITextFieldDelegate {
         let tempData : [Int] = stringToArray(newData.text!)
         preData.appendContentsOf(tempData)
         arrayData = preData
+        //此时arrayData需要在排序修改后更新值，否则会导致新添加的数据查找错误！
         arrayData = buddlingSortA(arrayData)
         newData.text = ""
         originalData.text = BasicArithmeticVC.arrayToString(arrayData)
@@ -103,7 +104,6 @@ class BinaryFindVC: UIViewController , UITextFieldDelegate {
         }
 //        let findArray : [Int] = stringToArray(findElement.text!)
         let wantsToFind : Int = stringToArray(findElement.text!)[0]
-        print(wantsToFind)
         let returnedFindResult : Int = binaryFind(arrayData , para: wantsToFind)
         if (returnedFindResult == -1){
             findResult.text = "源数据中无此数据"

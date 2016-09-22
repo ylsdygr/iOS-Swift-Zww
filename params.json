@@ -1,6 +1,6 @@
 {
   "name": "iOS-Swift-Zww",
   "tagline": "This is my demo of iOS about how to use these basic controllers with Swift Language.",
-  "body": "## 欢迎一起学习Swift\r\n\r\n### 应用功能说明\r\n\r\n1.应用分为“基础算法”、“地图位置”、“美图欣赏”、“文件及网页浏览”四块功能；  \r\n2.“基础算法”中包括〈冒泡排序〉（使用基础控件＋冒泡算法＋UITextView日志实现）、〈二分查找〉（使用基础控件＋二分查找算法＋UITextView日志实现）、〈迭代算桃子〉（使用基础控件＋迭代算法＋UITableView日志实现），导航使用UITabBarView＋UISegmentedControl实现；  \r\n3.“地图位置”中包括坐标定位、默认地点标记、地图动作，使用模拟器GPS位置服务；  \r\n4.“美图欣赏”中默认加载了数张预置图片，使用UICollectionView实现；  \r\n5.应用设定了Localizable设定，支持三种语言，分别为“英文”，“简体中文”，“繁体中文”；  \r\n6.应用请求注册位置及通知服务，运行完后请即时删除，避免重复提示；\r\n\r\n### 应用其他说明  \r\n1.应用代码中变量及方法均包含有必要的说明，读者可直接阅读代码；  \r\n2.应用会持续更新，其中的不足之处，希望有机会能和大家进行沟通交流，共同学习，共同进步；\r\n\r\n### 联系方式\r\nQQ：245655340  \r\n邮箱：[245655340@qq.com](http://mail.qq.com)",
+  "body": "## 欢迎一起学习Swift\r\n\r\n### 应用功能说明\r\n\r\n1.应用分为“基础算法”、“地图位置”、“美图欣赏”、“文件及网页浏览”四块功能；  \r\n2.“基础算法”中包括〈冒泡排序〉（使用基础控件＋冒泡算法＋UITextView日志实现）、〈二分查找〉（使用基础控件＋二分查找算法＋UITextView日志实现）、〈迭代算桃子〉（使用基础控件＋迭代算法＋UITableView日志实现），导航使用UITabBarView＋UISegmentedControl实现；  \r\n3.“地图位置”中包括坐标定位、默认地点标记、地图动作，使用模拟器GPS位置服务；  \r\n4.“美图欣赏”中默认加载了数张预置图片，使用UICollectionView实现；  \r\n5.“文件及网页浏览”中可以访问网址和本地文件，本地文件预置的为\"file://demo.pdf\",使用UIWebView实现；  \r\n6.应用设定了Localizable设定，支持三种语言，分别为“英文”，“简体中文”，“繁体中文”；  \r\n7.应用请求注册位置及通知服务，运行完后请即时删除，避免重复提示；\r\n\r\n### 应用其他说明  \r\n1.应用代码中变量及方法均包含有必要的说明，读者可直接阅读代码；  \r\n2.应用会持续更新，其中的不足之处，希望有机会能和大家进行沟通交流，共同学习，共同进步；\r\n\r\n### 联系方式\r\nQQ：245655340  \r\n邮箱：[245655340@qq.com](http://mail.qq.com)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
